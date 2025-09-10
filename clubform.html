@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Form</title>
+</head>
+<body>
+    <h1>Welcome to the writing society club troupe!</h1>
+    <h2>To learn more:</h2>
+    <a href="clubbckg.html">Return to info page</a>
+    <h3>Apply for our leadership positions? </h3>
+    <form method ="post" action = "clubbckg.html" >
+        <label for="useremail"> Email:</label>
+        <input type="email" name="useremail" id="useremail" placeholder="first.last@ousd.org">
+        <label for="userpass">Password:</label>
+        <input type="password" name="userpass" id="userpass" placeholder="password">
+        <br>
+        <label for="userrole">Role:</label>
+        <select name="userrole" id="userrole">
+            <option value="placeholder">Select</option>
+            <option value="Secretary">Secretary</option>
+            <option value="Vice President">Vice President</option>
+        </select>
+        <br>
+        <label for="multchoice">Experience level(Lower = Less):</label>
+        <input type="range" name="multchoice" id="multchoice">
+        <br>
+        <label for="time">Sign up for an interview slot</label>
+        <input type="week" name="time" id="time">
+        <br>
+        <label for="usermsg">Why should we hire you?:</label>
+        <textarea name="usermsg" id="usermsg" cols="25" rows="6"></textarea>
+        <input type="submit" value="Submit!">
+    
+
+    </form>
+</body>
+</html>
