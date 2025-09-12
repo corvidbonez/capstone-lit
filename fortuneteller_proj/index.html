@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+   
+
+    <title>Fortune Teller</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- this is the start of content -->
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYE41bj78Wsfgm8OPndHwfqpsyvG-FHaqdRw&s" alt="raving cat">
+    <h1>
+      Fortune Teller
+    </h1>
+    <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
+      <label for="namefield">Name:</label>
+      <input type="text" id="namefield" name="name" placeholder="your name" required>
+      <br>
+      <br>
+      <label for="bigquestion">Your Question (must be answerable by yes or no):</label>
+      <input type="text" name="Bquestion" id="bigquestion" placeholder="Am I dreaming?">
+      <br>
+      <br>
+      <label for="questionfield">You alive?:</label>
+      <input type="radio" id="question1" name="questionfield">
+      <label for="question1">Yes</label>
+      <input type="radio" id="question2" name="questionfield">
+      <label for="question2">No</label>
+      <input type="radio" name="questionfield" id="question3">
+      <label for="question3">Honestly idk</label>
+      <br>
+      <br>
+      <label for="confidencefield">How confident are you?</label>
+      <br>
+      <label for="slider1">1</label>
+      <input type= "range" id="slider1" name="confidencefield">
+      <label for="slider1">10</label>
+      <br>
+      <br>
+      <label for="calendar">Birth Month and Year:</label>
+      <br>
+      <input type="month" id="calendar" name="timefield">
+      <br>
+      <br>
+      <label for="colorpicker">Choose a color:</label>
+      <input type="color" id="colorpicker" name="colorfield">
+      <br>
+      <br>
+      <label for="upload1">Give us your resume:</label>
+      <input type="file" id="upload1" name="resume">
+      <br> 
+      <br>
+      <label for="feedbackfield">How did we do with your fortune?</label>
+      <select name="feedback" id="feedbackfield">
+            <option value="high">well done!</option>
+            <option value="medium">meh</option>
+            <option value="low">poor job :( </option>
+      </select>
+      <br>
+      <br>
+      <label for="essayfield">Write an opinion essay on the importance of good soup:</label>
+      <br>
+      <textarea name="essay" id="essayfield" placeholder="enter response"></textarea>
+      <br>
+      <br>
+      <input type="submit">
+    </form>
+    <div id="fortune"></div>
+  </body>
+</html>
