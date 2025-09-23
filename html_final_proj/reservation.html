@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your stay</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Book Your Stay at Four Starz</h1>
+    <img src="https://i.guim.co.uk/img/media/da883856a27e4d239d69b7dcd88cfe4a080f3e1a/378_181_2622_1573/master/2622.jpg?width=1200&quality=85&auto=format&fit=max&s=e81a7bab1b350a3d2c14fde0bbae6681" alt="woman flying in front of hollywood sign"width="400">
+    <h3>Thank you for choosing to stay with us at Four Starz. Please enter your information below and we'll be in touch.</h3>
+    <form method="get" action="fourstarfail.html">
+    
+    <label for="lastname">*Last Name:</label>
+    <input type="text" name= "guestinfo" id="lastname" placeholder="Wood">
+    <label for="firstname">*First Name:</label>
+    <input type="text" name= "guestinfo" id="firstname" placeholder="Holly">
+    <br>
+    <label for="guestemail">*Email:</label>
+    <input type="email" name="guestcontact" id="guestemail" placeholder="holly.wood@gmail.com">
+    <label for="guestnum">*Phone Number</label>
+    <input type="tel" name="guestcontact" id="guestnum" placeholder=(415)-555-5555>
+    <br>
+    <br>
+    <label for="partytotal">*Please enter the total member of guests of your party:</label>
+    <br>
+    <input type="number" name="guestpartytotal" id="partytotal">
+    <br>
+    <br>
+    <label for="arrivaledate">*When are you scheduling your stay with us?:</label>
+    <br>
+    <input type="date" name="guestdate" id="arrivaldate">
+    <br>
+    <br>
+    <label for="feedback">*How did you hear about us?:</label>
+    <select name="guestfeedback" id="feedbackquestions">
+        <option value="news">soyouwannabefamous.com</option>
+        <option value="friend">Friends/Family</option>
+        <option value="work">Work</option>
+        <option value="telemarketer">Telemarketer</option>
+        <option value="education">School</option>
+        <option value="magic">Eldritch Being</option>
+        <option value="other">Other (you're boring)</option>
+    </select>
+    <br>
+    <label for="feedbackwriting">Explain:</label>
+    <textarea name="guestfeedback" id="feedbackwriting"></textarea>
+    <br>
+    <br>
+    <input type="submit">
+    </form>
+    <footer>
+        <p>...</p>
+        <p>Let it be known that we are often overbooked and the room you book may not actually be available when you arrive :)</p>
+        <p>...</p>
+    </footer>
+</body>
+</html>
